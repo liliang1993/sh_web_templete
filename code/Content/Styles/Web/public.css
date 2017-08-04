@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+/* ---------------------CSS Reset----------------------- */
+body{line-height:1.4;color:#666;font-family:"微软雅黑";font-size: 14px;}
+html,body{
+  height:100%;
+}
+input,textarea,select{font-family:inherit;font-size:100%;}
+input{padding:0;border:0px;outline:0;}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dt,dd,li,form{ margin:0;}
+h4,h5,h6{font-size:12px;}
+ul,ol,dl,li{padding-left:0; list-style-type:none;}
+/*image with no-border*/
+img{border:0;display: block;}
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+}
+tr,td,th{
+  padding:0;
+}
+em,i{ font-style:normal;}
+a{ text-decoration:none;color: #666}
+/*a:hover{ color:#eac171;}*/
+
+/* ---------------------single CSS----------------------- */
+/* display */
+.dn{display:none;}.di{display:inline;}.db{display:block;}.dib{display:inline-block;} /* if the element is block level(eg. div, li), using 'inline_any' instead */
+/* height */
+/* width */
+/* fixed width value */
+.w1200{ width:1200px;}
+/* percent width value */
+.w{width:100%;}
+/* line-height */
+
+/* margin */
+.mr15{margin-right: 15px;}
+.ml15{margin-left: 15px;}
+/* margin negative */
+
+/* padding */
+.pt20{padding-top: 20px;}
+/* border-color name rule: border(b)-position(l/r/t/b/d)-width(null/2)-style(null/sh)-color(first one letter/first two letter) |-> All colors are safe color*/
+
+/* background-color name rule: bg - (key word/Hex color) |-> All colors are safe color */
+
+/* safe color */
+.g0{color:#000;}.g3{color:#333;}.g6{color:#666;}.g9{color:#999;}.gc{color:#ccc;}.wh{color:white;}
+/* font-size */
+.f12{ font-size:12px;}.f14{font-size:14px;}.f16{font-size:16px;}.f18{font-size:18px;}.f20{font-size:20px;}.f24{font-size:24px;}.f28{ font-size:28px;}.f46{ font-size:46px;}.f30{font-size:30px;}
+/* font-family */
+.fa{font-family:Arial;}.ft{font-family:Tahoma;}.fv{font-family:Verdana;}.fs{font-family:Simsun;}.fl{font-family:'Lucida Console';}.fw{font-family:'Microsoft Yahei';}
+/* font-style */
+.n{font-weight:normal; font-style:normal;}.b{font-weight:bold;}.i{font-style:italic;}
+/* text-align */
+.tc{text-align:center;}.tr{text-align:right;}.tl{text-align:left;}.tj{text-align:justify;}
+/* text-decoration */
+.tdl{text-decoration:underline;}
+/* letter-spacing */
+.lt-1{letter-spacing:-1px;}.lt0{letter-spacing:0;}.lt1{letter-spacing:1px;}
+/* white-space */
+.nowrap{white-space:nowrap;}
+/* word-wrap */
+.bk{word-wrap:break-word;}
+/* vertical-align */
+.vm{vertical-align:middle;}.vtb{vertical-align:text-bottom;}.vb{vertical-align:bottom;}.vt{vertical-align:top;}.vn{vertical-align:-2px;}
+/* float */
+.l{float:left;}.r{float:right;}
+/* clear */
+.cl{clear:both;}
+/* position */
+.pr{position:relative;}.pa{position:absolute;}
+/*z-index*/
+.zx1{z-index:1;}.zx2{z-index:2;}.zx3{z-index:3;}
+/* cursor */
+.poi{cursor:pointer;}.def{cursor:default;}
+/* overflow */
+.ovh{overflow:hidden;}.ova{overflow:auto;}
+/* visibility */
+.vh{visibility:hidden;}.vv{visibility:visible;}
+/* zoom */
+.z{*zoom:1;}.ti2{ text-indent:2em;}
+
+/* ------------------- multiply CSS ------------------ */
+/* 块状元素水平居中 */
+.auto{margin-left:auto; margin-right:auto;}
+/* 清除浮动*/
+.fix{*zoom:1;}.fix:after{display:table; content:''; clear:both;}
+/* 基于display:table-cell的自适应布局 */
+.cell{display:table-cell; *display:inline-block; width:2000px; *width:auto;}
+/* 双栏自适应cell部分连续英文字符换行 */
+.cell_bk{display:table; width:100%; table-layout:fixed; word-wrap:break-word;}
+/* 单行文字溢出虚点显 示*/
+.ell,.m_cl_list dd h2,.m_list_r li a h2,.tap-show{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+/* css3过渡动画效果 */
+.trans{
+  -webkit-transition:all 0.3s;  
+          transition:all 0.3s;
+}

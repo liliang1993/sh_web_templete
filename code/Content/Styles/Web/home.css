@@ -1,0 +1,41 @@
+.header .logo{
+    float:left;
+} 
+.header .rightBar{
+    float:right;
+}
+.header .rightBar .tel{
+    text-align: right;
+    padding-bottom: 15px;  
+}
+.header .rightBar .tel i.icon_tel{
+    display: inline-block;
+    width: 13px;
+    height: 21px;
+    padding-right: 7px;
+}
+.header .rightBar .btnBar{
+    
+}
+.header .rightBar .btnBar a{
+      display: inline-block;
+      width: 132px;
+      height: 32px;
+      border:1px solid #ccc;
+      text-align: center;
+}
+.header .rightBar .btnBar a.reg{
+    border-color: #e10000;
+    color:#e10000;
+}
+.header .rightBar .btnBar a.login{
+    border-color: #489067;
+    color:#489067;
+}
+.tel .icon_tel{
+    
+}
+.tel .language{
+    display: inline-block;
+    cursor: pointer;
+}
